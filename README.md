@@ -1,2 +1,2 @@
 # python-challenge
-the 3rd challenge for tis Boot camp 
+the 3rd challenge for this Boot camp 
