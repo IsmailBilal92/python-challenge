@@ -23,10 +23,10 @@ with open(budget_csv,'r') as csvfile:
     for row in csvreader:
         number_month+=1
 
-        total_net = total_net + int(row["Profit/Losses"])
+        total_net = total_net + row['Profit/Losses']
 
-        net_change=float(row["Profit/Losses"])-net
-        net=float(row["Profit/Losses"])
+        net_change=float(row['Profit/Losses'])-net
+        net=float(row['Profit/Losses'])
         net_change_list=net_change_list+[net]
         month_change=[month_change]+[row["Date"]]
 
